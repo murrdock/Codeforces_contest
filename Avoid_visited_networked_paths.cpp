@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//https://www.hackerearth.com/challenges/competitive/may-circuits-20/algorithm/avoiding-networked-paths-revisited-38d27ffb/
+
 using llu = long long unsigned int;
 // considering 5 factors of X(repeated as unique as well) we traverse down taking union(maintaining only unique ones) down the path.
 // when all the factors are included it's a black node.
